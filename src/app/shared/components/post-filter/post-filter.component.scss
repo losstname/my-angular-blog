@@ -1,4 +1,10 @@
 .search-field {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 400px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
 }

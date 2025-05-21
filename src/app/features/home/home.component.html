@@ -1,5 +1,5 @@
 <app-post-filter (filterChanged)="onFilterChange($event)"></app-post-filter>
-<mat-grid-list [cols]="cols" gutterSize="16px" >
+<mat-grid-list [cols]="cols" gutterSize="16px" rowHeight="400px">
   <mat-grid-tile *ngFor="let post of filteredPosts">
     <app-post-card [post]="post" (clicked)="navigateToPost($event)"></app-post-card>
   </mat-grid-tile>

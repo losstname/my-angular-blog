@@ -1,4 +1,6 @@
-<mat-form-field appearance="outline" class="search-field">
-  <mat-label>Search posts</mat-label>
-  <input matInput [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange()">
-</mat-form-field>
+<div class="search-bar">
+  <mat-form-field appearance="outline" class="search-field">
+    <input matInput [(ngModel)]="searchTerm" (ngModelChange)="onSearchChange()" placeholder="Looking for something?">
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</div>
